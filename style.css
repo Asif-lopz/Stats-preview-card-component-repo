@@ -2,6 +2,7 @@ body {
     width: 1440px;
     height: auto;
     background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
 }
 h1{
     color: hsl(0, 0%, 100%);
@@ -20,6 +21,18 @@ p{
 }
 .box .image {
     float: right;
+}
+.box .main {
+    width: fit-content;
+    margin-left: 70px;
+    padding-top: 50px;
+}
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 50px;
+    width: 300px;
 }
 
 
