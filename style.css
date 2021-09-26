@@ -13,7 +13,11 @@ p{
     color: hsla(0, 0%, 100%, 0.75);
 }
 .box {
-    transform: translate(10%, 25%);
+    transform: translate(18%, 25%);
+    width: 1080px;
+}
+.box img {
+    float: right;
 }
 
 
