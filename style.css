@@ -1,3 +1,6 @@
+@import url("https://fonts.google.com/specimen/Inter");
+@import url("https://fonts.google.com/specimen/Lexend+Deca");
+
 body {
     width: 1440px;
     height: auto;
@@ -26,6 +29,9 @@ p{
     width: 350px;
     margin-left: 70px;
     padding-top: 50px;
+}
+.main h1 {
+    font-weight: 700;
 }
 .information {
     display: flex;
