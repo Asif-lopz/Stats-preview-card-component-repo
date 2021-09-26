@@ -12,6 +12,9 @@ h2{
 p{
     color: hsla(0, 0%, 100%, 0.75);
 }
+.box {
+    transform: translate(10%, 25%);
+}
 
 
 
@@ -26,6 +29,7 @@ p{
 
 .attribution {
     font-size: 11px; text-align: center;
+    margin-top: 300px;
     text-align: center; 
     color: white;
 }
