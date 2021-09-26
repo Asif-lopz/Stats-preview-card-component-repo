@@ -23,7 +23,7 @@ p{
     float: right;
 }
 .box .main {
-    width: fit-content;
+    width: 350px;
     margin-left: 70px;
     padding-top: 50px;
 }
@@ -32,7 +32,11 @@ p{
     flex-direction: row;
     justify-content: space-between;
     padding-right: 50px;
+    padding-top: 75px;
     width: 300px;
+}
+.information p {
+    text-transform: uppercase;
 }
 
 
