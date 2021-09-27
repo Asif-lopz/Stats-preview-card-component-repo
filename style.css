@@ -29,7 +29,6 @@ p{
 }
 .box .image{
     float: right;
-    background: url("images/image-header-desktop.jpg");
     width: 540px;
     height: 446px;
 }
@@ -90,7 +89,9 @@ p{
         margin: 0;
         padding: 0;
     }
-    
+    .box {
+        width: 350px;
+    }
 }
 
 
