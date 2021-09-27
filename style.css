@@ -9,12 +9,17 @@ body {
 }
 h1{
     color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
 }
 h2{
-    color: hsla(0, 0%, 100%, 0.918);
+    color: hsla(0, 0%, 100%, 0.993);
+    font-family: "Inter", sans-serif;
 }
 p{
-    color: hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.664);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
 }
 .box {
     transform: translate(18%, 25%);
@@ -33,16 +38,39 @@ p{
 .main h1 {
     font-weight: 700;
 }
+.main .paragraph {
+    padding-top:20px;
+    line-height: 2em;
+    width: 300px;
+}
 .information {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding-right: 50px;
+    justify-content: space-between;
     padding-top: 75px;
-    width: 300px;
+}
+.information * {
+    margin: 0;
+    padding: 0;
+}
+.information h2 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
 }
 .information p {
     text-transform: uppercase;
+    font-size: 10px;
+}
+.information .company {
+    width: 75px;
+}
+.information .templates {
+    width: 75px;
+}
+.information .quary {
+    width: 75px;
 }
 
 
