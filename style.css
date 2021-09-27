@@ -27,8 +27,20 @@ p{
     height: 448px;
     background-color: hsl(244, 38%, 16%);
 }
-.box .image {
+.box .image{
     float: right;
+    background: url("images/image-header-desktop.jpg");
+    width: 540px;
+    height: 446px;
+}
+.box .image .overlay {
+    position: absolute;
+    top: 0;
+    left: 540px;
+    width: 540px;
+    height: 446px;
+    background-color: hsl(277, 64%, 61%);
+    mix-blend-mode: overlay;
 }
 .box .main {
     width: 350px;
@@ -56,7 +68,7 @@ p{
 }
 .information h2 {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
     padding-bottom: 10px;
 }
 .information p {
@@ -73,6 +85,14 @@ p{
     width: 75px;
 }
 
+@media only screen and (max-width:375px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+}
+
 
 
 
@@ -86,7 +106,7 @@ p{
 
 .attribution {
     font-size: 11px; text-align: center;
-    margin-top: 300px;
+    margin-top: 125px;
     text-align: center; 
     color: white;
 }
