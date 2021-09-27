@@ -92,8 +92,8 @@ p{
     }
     .box {
         width: 350px;
-        height: auto;
-        transform: translate(3.5%, 15%);
+        height: 850px;
+        transform: translate(3.5%, 10%);
         margin: 0;
     }
     .box .image {
@@ -118,15 +118,37 @@ p{
     }
     .main h1 {
         text-align: center;
-        width: 300px;
-        margin-left: 20px;
+        width: 260px;
+        margin-left: 40px;
+        font-size: 28px;
     }
     .main .paragraph {
         text-align: center;
-        margin-left: 11%;
+        margin-left: 12%;
         width: 260px;
         font-size: 16px;
         line-height: 1.5em;
+        padding-top: 0;
+    }
+    .information {
+        flex-direction: column;
+        padding-right: 0;
+        text-align: center;
+        margin-left: 35%;
+        padding-top: 30px;
+    }
+    .information h2 {
+        padding-bottom: 5px;
+    }
+
+    .information .company {
+        margin-bottom: 35px;
+    }
+    .information .templates {
+        margin-bottom: 35px;
+    }
+    .information .quary {
+        margin-bottom: 35px;
     }
 
 }
